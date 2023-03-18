@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "prometheus")(type "KiCad")(uri "A:/Desktop/Doshisha/DERC2023/prometheus-elec/kicad2/prometheus-em/lib/prometheus-schlib.kicad_sym")(options "")(descr ""))
+  (lib (name "tanekonsat")(type "KiCad")(uri "A:/Desktop/Doshisha/DERC2023/prometheus-elec/kicad2/prometheus-em/lib/tanekonsat.kicad_sym")(options "")(descr ""))
+)
