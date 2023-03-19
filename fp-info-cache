@@ -1,4 +1,4 @@
-20272531995291245
+20275900491287571
 AkioLib
 5.5_radial_cap
 
@@ -78855,12 +78855,26 @@ Connector
 8
 8
 SamacSys_Parts
+RP2040TR7
+RP2040TR7-2
+Connector
+0
+57
+57
+SamacSys_Parts
 SMT_4.2X3.2_
 SMT(4.2x3.2)
 Switch
 0
 4
 4
+SamacSys_Parts
+SOIC127P600X175-8N
+SOP8J-Z-PKG
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 SOIC127P600X175-9N
 P-HSOP8-0405-1.27-001
@@ -78912,8 +78926,8 @@ Integrated Circuit
 5
 SamacSys_Parts
 SOT95P237X112-3N
-Micro3 (SOT23)
-Transistor
+IRLML5203TRPBF
+MOSFET (P-Channel)
 0
 3
 3
