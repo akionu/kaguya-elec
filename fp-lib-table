@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "kaguya")(type "KiCad")(uri "${KIPRJMOD}/kaguya-lib.pretty")(options "")(descr ""))
+)
