@@ -236,9 +236,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "kaguya"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "kaguya-elec.kicad_pro",
