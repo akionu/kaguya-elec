@@ -100,8 +100,8 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": true,
-        "allow_microvias": true,
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.09999999999999999,
         "min_copper_edge_clearance": 0.0,
