@@ -1,9 +1,11 @@
 {
   "board": {
-    "active_layer": 34,
+    "active_layer": 31,
     "active_layer_preset": "All Copper Layers",
-    "auto_track_width": false,
-    "hidden_nets": [],
+    "auto_track_width": true,
+    "hidden_nets": [
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
@@ -18,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
