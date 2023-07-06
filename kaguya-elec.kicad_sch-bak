@@ -3318,7 +3318,7 @@
   (no_connect (at 85.09 242.57) (uuid 74fb24d5-07e3-4b0e-a5ce-fc63831dddbb))
   (no_connect (at 175.26 219.71) (uuid 76ecafd0-2ebb-4f9a-8997-71893dec53db))
   (no_connect (at 341.63 240.03) (uuid 983c9df9-d291-4c5b-85ed-22389ad4ba8d))
-  (no_connect (at 341.63 234.95) (uuid 983c9df9-d291-4c5b-85ed-22389ad4ba8e))
+  (no_connect (at 341.63 234.95) (uuid 983c9df9-d291-4c5b-85ed-22389ad4ba8d))
   (no_connect (at 41.91 209.55) (uuid b9dade00-6b55-4bad-b855-8a8471f042eb))
   (no_connect (at 214.63 45.72) (uuid f8f96624-cd3e-48de-af3a-d7b5491baa30))
   (no_connect (at 161.29 48.26) (uuid f8f96624-cd3e-48de-af3a-d7b5491baa31))
@@ -4469,7 +4469,7 @@
     (effects (font (size 5.12 5.12)) (justify left bottom))
     (uuid 3ec84d0b-0f32-4205-ab31-3dd8e18dd08d)
   )
-  (text "I2C0 400kHz BNO085(0x4A), SPL06-00(0x77)\nI2C1 1MHz   VL53L5CX(0x29), EEPROM(0x50)"
+  (text "I2C0 400kHz BNO085(0x4A), SPL06-00(0x77)\nI2C1 1MHz   VL53L5CX(0x29), EEPROM(0x50, 0x51)"
     (at 144.78 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 553db92f-41ab-41d6-99f1-bde754e87a0c)
@@ -5479,9 +5479,9 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 360.68 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0cd9d8e1-962d-4f6b-bbaa-ae4a5be4be8f)
-    (property "Reference" "J18" (id 0) (at 361.315 229.87 0))
-    (property "Value" "GNSS_C_P" (id 1) (at 361.315 232.41 0))
-    (property "Footprint" "kaguya:HC-FPC-05-10-5RLTAG" (id 2) (at 360.68 240.03 0)
+    (property "Reference" "J?" (id 0) (at 361.315 229.87 0))
+    (property "Value" "" (id 1) (at 361.315 232.41 0))
+    (property "Footprint" "" (id 2) (at 360.68 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 360.68 240.03 0)
@@ -6139,9 +6139,9 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 381 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3262d160-eed2-4667-88f0-3fc0ee0699e4)
-    (property "Reference" "J19" (id 0) (at 381.635 229.87 0))
-    (property "Value" "GNSS_C_T" (id 1) (at 381.635 232.41 0))
-    (property "Footprint" "kaguya:GNSS_Flat" (id 2) (at 381 240.03 0)
+    (property "Reference" "J?" (id 0) (at 381.635 229.87 0))
+    (property "Value" "" (id 1) (at 381.635 232.41 0))
+    (property "Footprint" "" (id 2) (at 381 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 381 240.03 0)
@@ -6192,10 +6192,10 @@
   (symbol (lib_id "power:GND") (at 365.76 245.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 351e38e5-8979-45d6-ae75-ffba44bdf20e)
-    (property "Reference" "#PWR0136" (id 0) (at 365.76 251.46 0)
+    (property "Reference" "#PWR?" (id 0) (at 365.76 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 365.76 248.92 0))
+    (property "Value" "" (id 1) (at 365.76 248.92 0))
     (property "Footprint" "" (id 2) (at 365.76 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7147,9 +7147,9 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 316.23 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5864ccf4-ba00-49e4-a9de-bf638971af4d)
-    (property "Reference" "J16" (id 0) (at 316.865 229.87 0))
-    (property "Value" "ToF_C_P" (id 1) (at 316.865 232.41 0))
-    (property "Footprint" "kaguya:HC-FPC-05-10-5RLTAG" (id 2) (at 316.23 240.03 0)
+    (property "Reference" "J?" (id 0) (at 316.865 229.87 0))
+    (property "Value" "" (id 1) (at 316.865 232.41 0))
+    (property "Footprint" "" (id 2) (at 316.23 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 316.23 240.03 0)
@@ -7874,7 +7874,7 @@
   (symbol (lib_id "power:GND") (at 386.08 245.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7d9e9f10-8dc7-4bde-9b81-d42bf3a7359a)
-    (property "Reference" "#PWR0137" (id 0) (at 386.08 251.46 0)
+    (property "Reference" "#PWR?" (id 0) (at 386.08 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 386.08 248.92 0))
@@ -9006,7 +9006,7 @@
   (symbol (lib_id "power:GND") (at 321.31 245.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bf62f65d-908d-4248-bf9f-fad9cdafae9a)
-    (property "Reference" "#PWR0131" (id 0) (at 321.31 251.46 0)
+    (property "Reference" "#PWR?" (id 0) (at 321.31 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 321.31 248.92 0))
@@ -9836,7 +9836,7 @@
   (symbol (lib_id "power:GND") (at 341.63 247.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f00b7623-fe8a-417b-b712-553a9f7a2bce)
-    (property "Reference" "#PWR0135" (id 0) (at 341.63 254 0)
+    (property "Reference" "#PWR?" (id 0) (at 341.63 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 341.63 251.46 0))
@@ -9887,9 +9887,9 @@
   (symbol (lib_id "Connector:Conn_01x06_Male") (at 336.55 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f2d31cb4-8267-4b6e-ae1a-75de771612d8)
-    (property "Reference" "J17" (id 0) (at 337.185 229.87 0))
-    (property "Value" "ToF_C_T" (id 1) (at 337.185 232.41 0))
-    (property "Footprint" "kaguya:ToF_Flat2" (id 2) (at 336.55 240.03 0)
+    (property "Reference" "J?" (id 0) (at 337.185 229.87 0))
+    (property "Value" "" (id 1) (at 337.185 232.41 0))
+    (property "Footprint" "" (id 2) (at 336.55 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 336.55 240.03 0)
@@ -10636,9 +10636,6 @@
     (path "/a1c0993b-1cff-4958-bbef-e818e8ddbb5a"
       (reference "#PWR0130") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/bf62f65d-908d-4248-bf9f-fad9cdafae9a"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
     (path "/bbd9d237-723e-4611-9a6c-a8e1c3e03947"
       (reference "#PWR0132") (unit 1) (value "+BATT") (footprint "")
     )
@@ -10648,14 +10645,17 @@
     (path "/6f47a441-0011-4662-aa5b-5ab3752c5afc"
       (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f00b7623-fe8a-417b-b712-553a9f7a2bce"
-      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
-    )
     (path "/351e38e5-8979-45d6-ae75-ffba44bdf20e"
-      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/7d9e9f10-8dc7-4bde-9b81-d42bf3a7359a"
-      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bf62f65d-908d-4248-bf9f-fad9cdafae9a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f00b7623-fe8a-417b-b712-553a9f7a2bce"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/96f61974-2891-4bb7-b346-65b1ba4adc10"
       (reference "AC1") (unit 1) (value "BNO085") (footprint "SamacSys_Parts:BNO085")
@@ -10855,17 +10855,17 @@
     (path "/30bcc9ff-1576-4517-b8f9-a3e5bcde3afc"
       (reference "J15") (unit 1) (value "JST ZH 2") (footprint "kaguya:JST ZH 2 Side")
     )
-    (path "/5864ccf4-ba00-49e4-a9de-bf638971af4d"
-      (reference "J16") (unit 1) (value "ToF_C_P") (footprint "kaguya:HC-FPC-05-10-5RLTAG")
-    )
-    (path "/f2d31cb4-8267-4b6e-ae1a-75de771612d8"
-      (reference "J17") (unit 1) (value "ToF_C_T") (footprint "kaguya:ToF_Flat2")
-    )
     (path "/0cd9d8e1-962d-4f6b-bbaa-ae4a5be4be8f"
-      (reference "J18") (unit 1) (value "GNSS_C_P") (footprint "kaguya:HC-FPC-05-10-5RLTAG")
+      (reference "J?") (unit 1) (value "GNSS_C_P") (footprint "")
     )
     (path "/3262d160-eed2-4667-88f0-3fc0ee0699e4"
-      (reference "J19") (unit 1) (value "GNSS_C_T") (footprint "kaguya:GNSS_Flat")
+      (reference "J?") (unit 1) (value "GNSS_C_T") (footprint "")
+    )
+    (path "/5864ccf4-ba00-49e4-a9de-bf638971af4d"
+      (reference "J?") (unit 1) (value "ToF_C_P") (footprint "")
+    )
+    (path "/f2d31cb4-8267-4b6e-ae1a-75de771612d8"
+      (reference "J?") (unit 1) (value "ToF_C_T") (footprint "")
     )
     (path "/2e637abe-cd61-4adb-bdaf-fcaa8acece61"
       (reference "L1") (unit 1) (value "3.3u") (footprint "Inductor_SMD:L_0603_1608Metric")
