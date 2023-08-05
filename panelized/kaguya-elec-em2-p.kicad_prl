@@ -1,16 +1,16 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 44,
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": false,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
-    "net_color_mode": 2,
+    "high_contrast_mode": 0,
+    "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 1.0
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -18,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_80000007",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "kaguya-elec.kicad_prl",
+    "filename": "kaguya-elec-em2-p.kicad_prl",
     "version": 3
   },
   "project": {

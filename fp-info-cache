@@ -1,4 +1,4 @@
-20922031883747111
+20932124650233809
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88879,6 +88879,13 @@ E220-900T22S JP
 22
 22
 kaguya
+GNSS_Flat
+
+
+0
+10
+5
+kaguya
 Goertek SPL06-001
 
 
@@ -88912,6 +88919,20 @@ LT3218DT1G
 
 0
 6
+6
+kaguya
+ToF_Flat
+
+
+0
+12
+6
+kaguya
+ToF_Flat2
+
+
+0
+12
 6
 kaguya
 encoder connector e-side
@@ -88956,6 +88977,13 @@ E220-900T22S JP
 22
 22
 kaguya-lib
+GNSS_Flat
+
+
+0
+10
+5
+kaguya-lib
 Goertek SPL06-001
 
 
@@ -88989,6 +89017,20 @@ LT3218DT1G
 
 0
 6
+6
+kaguya-lib
+ToF_Flat
+
+
+0
+12
+6
+kaguya-lib
+ToF_Flat2
+
+
+0
+12
 6
 kaguya-lib
 encoder connector e-side
